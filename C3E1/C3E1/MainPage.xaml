@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:C3E1"
+             x:Class="C3E1.MainPage">
+
+    <StackLayout  HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand">
+        <!-- Place new controls here -->
+        <Label Text="Phone number translator" 
+           />
+        <Entry MaxLength="12" x:Name="InputNumber" Placeholder="Phone number" ></Entry>
+        <Button x:Name="TranslateButton" Clicked="Translation" TextColor="White" BackgroundColor="Goldenrod" Text="Translate"  ></Button>
+        <Button x:Name="CallButton" Clicked="Calling" TextColor="White" BackgroundColor="BlueViolet" Text="Call"  ></Button>
+    </StackLayout>
+
+</ContentPage>
